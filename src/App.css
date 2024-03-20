@@ -1,0 +1,31 @@
+body {
+  background-color: #300030;
+}
+
+.universe-button {
+  background-color: #4d004d;
+  /* Deep purple shade */
+  color: #ffffff;
+  /* White text color for contrast */
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.universe-button:hover {
+  background-color: #5a1f5a;
+  /* Darker shade of purple for hover effect */
+}
+
+.rotate {
+  transform: rotateY(180deg);
+  transition: transform 0.5s;
+}
+
+.rotate-back {
+  transform: rotateY(0deg);
+  transition: transform 0.5s;
+}
